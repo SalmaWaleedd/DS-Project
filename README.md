@@ -1,48 +1,32 @@
 # XML Editor
 
-### This project is a simple XML Editor that performs many features on an XML File.
-You can download the XML Editor from [here](https://drive.google.com/drive/u/0/folders/1jKiG87C7neV_-lWUrRxDB6pcrub1-WXN)
-* ### Note:
-You should download graphviz application so that the our application runs correctly.
-You can download it from [here](https://graphviz.org/download/)
-* ### Demo Video:
-You can watch it from [here](https://drive.google.com/file/d/1p_12MTrwVfX3jYEudMHkl0bQJtN98J3Y/view)
+### Overview
+This project is a simple XML Editor that offers various features for working with XML files.
+
+**Download XML Editor**: [Download Here](https://drive.google.com/drive/u/0/folders/1jKiG87C7neV_-lWUrRxDB6pcrub1-WXN)
+
+**Note**: Make sure to download the Graphviz application for the correct functioning of our application. Get it [here](https://graphviz.org/download/)
+
+**Demo Video**: Watch a demonstration [here](https://drive.google.com/file/d/1p_12MTrwVfX3jYEudMHkl0bQJtN98J3Y/view)
 
 ## Main Buttons:
-* ### Browse: 
-Opens a .xml file.
-* ### Write the file:
-Write the file manually.
-* ### Find Errors: 
-Detects Errors in the file and their type and location.
-* ### Minify: 
-Removes all the white spaces and new lines from the file.
-* ### Deminify: 
-Restore all the white spaces and new lines from the file.
-* ### Compress: 
-Compresses the file.
-* ### Decompress: 
-Decompresses already compressed XML files and puts them in the correct formatted form.
-* ### Redo: 
-Redo the last operation.
-* ### Undo: 
-Undo the last operation.
-* ### Save: 
-Save the xml file.
-* ### Network Analysis: 
-Takes us to new window for network analysis.
-* ### Search: 
-Searches for posts by a word.
-* ### Mutual Friend: 
-The user inputs the IDs of two users in the xml file, the output is the mutual followers between these 2 users.
-* ### Suggest Friends: 
-The user inputs the ID of a user in the xml file, the output is suggested followers for this user.
-* ### Most Active User: 
-Prints out the most active user.
-* ### Most Influencer User: 
-Prints out the most influencer user.
-* ### Generate Graph: 
-Generate a picture that visualize the social network.
+- **Browse:** Open a .xml file.
+- **Write the file:** Manually write the file.
+- **Find Errors:** Detect errors in the file and identify their type and location.
+- **Minify:** Remove all white spaces and new lines from the file.
+- **Deminify:** Restore all white spaces and new lines in the file.
+- **Compress:** Compress the file.
+- **Decompress:** Decompress a compressed XML file and format it correctly.
+- **Redo:** Redo the last operation.
+- **Undo:** Undo the last operation.
+- **Save:** Save the XML file.
+- **Network Analysis:** Open the social network analysis window.
+- **Search:** Search for posts by word.
+- **Mutual Friend:** Find mutual followers between two users.
+- **Suggest Friends:** Suggest followers for a given user.
+- **Most Active User:** Display the most active user.
+- **Most Influencer User:** Display the most influential user.
+- **Generate Graph:** Generate a visual representation of the social network.
 
 ## Contributors
 - Salma Waleed Ismail: 2000308
