@@ -30,7 +30,7 @@ This project is a simple XML Editor that offers various features for working wit
 
 ## Contributors
 - Salma Waleed Ismail: 2000308
-- Ahmed Yousry Musa: 2000205
+- Ahmed Yousry Mohamed: 2000205
 - Hossam Tarek El Sayed: 2000078
 - Shadi Mohamed Alsaid: 2000405
 - Youssuf Ahmed Ebrahim: 2001528
