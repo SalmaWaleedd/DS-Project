@@ -25,7 +25,7 @@ void User::set_Following(User* followedUser) {
     total_following++;
 }
 
-std::string User::getName() const {
+string User::getName() const {
     return Name;
 }
 
@@ -41,7 +41,7 @@ User* User::getUserFollowing(int userNumber) {
     if (total_following > userNumber) {
         return following[userNumber];
     } else {
-        std::cout << "Error, You exceed the maximum following users" << std::endl;
+        cout << "Error, You exceed the maximum following users" <<endl;
         return nullptr;  // Return nullptr to indicate an error condition
     }
 }
@@ -80,37 +80,37 @@ string User::getUserSuggestion() {
 }
 
 void User::PrintUserData() const {
-    std::cout << "User ID: " << ID << std::endl;
-    std::cout << "User Name: " << Name << std::endl;
+    cout << "User ID: " << ID << endl;
+    cout << "User Name: " << Name << endl;
 
     for (size_t i = 0; i < postBody.size(); ++i) {
-        std::cout << "Post " << i + 1 << ": " << postBody[i] << std::endl;
+        cout << "Post " << i + 1 << ": " << postBody[i] << endl;
     }
 
     for (size_t i = 0; i < postTopic.size(); ++i) {
-        std::cout << "Topic " << i + 1 << ": " << postTopic[i] << std::endl;
+        cout << "Topic " << i + 1 << ": " << postTopic[i] << endl;
     }
 
     for (size_t i = 0; i < following.size(); ++i) {
-        std::cout << "User following: ID " << following[i]->getId() << ", Name " << following[i]->getName() << std::endl;
+        cout << "User following: ID " << following[i]->getId() << ", Name " << following[i]->getName() << endl;
     }
 }
 string User::getUserDataAsString() const {
-    std::string userData;
+    string userData;
 
     userData += "User ID: " + std::to_string(ID) + "\n";
     userData += "User Name: " + Name + "\n";
 
     for (size_t i = 0; i < postBody.size(); ++i) {
-        userData += "Post " + std::to_string(i + 1) + ": " + postBody[i] + "\n";
+        userData += "Post " + to_string(i + 1) + ": " + postBody[i] + "\n";
     }
 
     for (size_t i = 0; i < postTopic.size(); ++i) {
-        userData += "Topic " + std::to_string(i + 1) + ": " + postTopic[i] + "\n";
+        userData += "Topic " + to_string(i + 1) + ": " + postTopic[i] + "\n";
     }
 
     for (size_t i = 0; i < following.size(); ++i) {
-        userData += "User following: ID " + std::to_string(following[i]->getId()) +
+        userData += "User following: ID " + to_string(following[i]->getId()) +
                     ", Name " + following[i]->getName() + "\n";
     }
 
